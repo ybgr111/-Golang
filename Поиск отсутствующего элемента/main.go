@@ -19,7 +19,7 @@ func Solution(A *[]int) int {
 
 	for i := 1; i < N; i++ {
 		if (*A)[i-1] != i {
-			return (*A)[i]
+			return i
 		}
 	}
 	return N
